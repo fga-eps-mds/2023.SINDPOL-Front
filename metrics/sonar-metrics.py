@@ -22,7 +22,6 @@ def generate_metrics():
         "security_rating",
     ]
 
-    # NAO RELE A MÃO NISSO AQUI
     repository_name = sys.argv[1]
     repository_version = sys.argv[2]
     underlined_repo_name = repository_name[:16] + repository_name[16:].replace(
